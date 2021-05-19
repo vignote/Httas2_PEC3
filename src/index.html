@@ -1,21 +1,156 @@
 <!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, user-scalable=yes" />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="./assets/styles/main.scss"
+        />
+        <!-- do not remove this line! -->
+        <title>Mago de Oz</title>
+    </head>
+    <body class="container flex flex-col h-screen mx-auto">
+        <header class="flex flex-row flex-wrap justify-around">
+            <img
+                src="./assets/images/pirate_logo.jpg"
+                alt="Logo Pirata del Mago de Oz"
+                width="75"
+                height="75"
+            />
+            <nav>
+                <ul class="flex flex-row flex-wrap justify-between">
+                    <li>
+                        <a class="link" href="./members.html">Componentes</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#">Historia</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#">Contacta</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="flex-1">
+            <h1 class="text-center font-heading text-5xl my-8 xl:my-14">
+                Mago de Oz
+            </h1>
+            <div class="grid grid-cols-1 md:grid-cols-2 md:gap-4 my-4">
+                <img
+                    src="./assets/images/mago-oz-banda.jpg"
+                    alt="Foto de la Banda"
+                    width="600"
+                />
+                <div class="text-justify">
+                    <p>
+                        Mägo de Oz es una banda de Folk Metal fundada el 7 de
+                        julio de 1988 por el baterista Txus di Fellatio. Se
+                        caracterizan por su heterogénea y peculiar propuesta
+                        musical de mezclar géneros como el Heavy Metal, Power
+                        Metal, Folk Metal, Celtic Metal, Hard Rock entre otros.
+                        Sin embargo, la música celta ha sido la que predomina en
+                        el sonido de la banda hasta la actualidad.​
+                    </p>
+                    <p>
+                        Consagrados como una de las agrupaciones más reconocidas
+                        del folk metal español, saltaron al éxito en 1998 con el
+                        disco La leyenda de La Mancha, llegando a las listas de
+                        éxitos musicales de España con canciones como «Molinos
+                        de viento» o posteriormente, ya con su disco Finisterra,
+                        «Fiesta pagana».1​2​3​ La fama del grupo y su éxito,
+                        tanto en la prensa especializada como en los medios
+                        convencionales a nivel nacional e internacional,
+                        especialmente en Hispanoamérica, se hizo aún mayor tras
+                        la publicación del disco Gaia en 2003, siendo el primer
+                        trabajo de una trilogía conceptual completada con los
+                        discos Gaia II: La voz dormida en 2005 y Gaia III:
+                        Atlantia en 2010, de igual o mayor éxito.
+                    </p>
+                    <p>
+                        Destacaron la escenografía de sus conciertos, que
+                        incorpora desde barcos piratas hasta catedrales
+                        medievales, pirotecnia y varias puestas en escena
+                        inéditas en el panorama español, así como la amplia
+                        temática lírica de sus composiciones, que varía en
+                        trasfondo, sea romántico, histórico, fantástico o de
+                        crítica política y social, muchas veces manejando
+                        historias conceptuales.
+                    </p>
+                    <p>
+                        A lo largo de su carrera, Mägo de Oz ha sufrido
+                        numerosos cambios de integrantes, siendo Txus di
+                        Fellatio el único miembro original que continúa en la
+                        banda.
+                    </p>
+                </div>
+            </div>
+            <img
+                class="mt-4 xl:mt-14"
+                src="./assets/images/componentes.jpg"
+                alt="Rostros Tapados del Mago de Oz"
+            />
+        </main>
+        <footer class="flex flex-row flex-wrap">
+            <img
+                class="h-47 object-cover my-4"
+                src="./assets/images/witch_logo.jpg"
+                alt="Logo de bruja del Mago de Oz"
+                width="75"
+                height="47"
+            />
+            <nav class="flex-1 text-center my-4">
+                <ul class="flex flex-row flex-wrap justify-center">
+                    <li>
+                        <a class="link--active" href="./index.html"
+                            >Pagina Principal</a
+                        >
+                    </li>
+                    <li>
+                        <a class="link" href="./members.html">Componentes</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#">Historia</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#">Contacta</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="mx-auto my-4">
+                <ul class="flex flex-row flex-wrap justify-center">
+                    <li>
+                        <a
+                            class="link"
+                            href="https://open.spotify.com/artist/5ZNxiPcbKgaNcBrERMpqeu"
+                            ><i class="fab fa-spotify"></i
+                        ></a>
+                    </li>
+                    <li>
+                        <a
+                            class="link"
+                            href="https://www.facebook.com/magodeozoficial"
+                            ><i class="fab fa-facebook"></i
+                        ></a>
+                    </li>
+                    <li>
+                        <a
+                            class="link"
+                            href="https://www.instagram.com/magodeozoficial"
+                            ><i class="fab fa-instagram"></i
+                        ></a>
+                    </li>
+                    <li>
+                        <a class="link" href="https://twitter.com/MAGODEOZOFIC"
+                            ><i class="fab fa-twitter"></i
+                        ></a>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
 
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no">
-    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
-    <title>UOC Boilerplate</title>
-  </head>
-  <body>
-    <img src="./assets/images/logo.png" alt="Universitat Oberta de Catalunya" class="uoc-logo">
-    <h1 class="uoc-title">Hello, UOC!</h1>
-    <p>
-      This is a starter template for the Advanced HTML and CSS Tools courses
-      from the Master's Program in Multimedia Applications and the Master's
-      Program in Web App and Website Development at the Universitat Oberta de
-      Catalunya.
-    </p>
-    <script src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
-  </body>
+        <script src="./assets/scripts/main.js"></script>
+        <!-- do not remove this line! -->
+    </body>
 </html>

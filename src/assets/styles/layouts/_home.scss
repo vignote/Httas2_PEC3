@@ -1,21 +1,18 @@
 body {
   margin: 0;
   padding: 30px;
-  font-family: $font-family-sans-serif;
-  background-color: $uoc-bg;
-  color: $uoc-corporate;
+  background-color: $page-bg;
+  color: $font-color;
 }
 
-.uoc-logo {
-  display: block;
-  margin-bottom: 20px;
-  width: 300px;
-  height: auto;
-}
-
-.uoc-title {
-  font-family: $font-family-serif;
-  font-size: 36px;
-  font-weight: 700;
-  color: $uoc-corporate;
+@layer components {
+  .link {
+    @apply p-4 text-yellow hover:text-lightYellow;
+  }
+  .link--active {
+    @apply p-4 text-lightYellow;
+  }
+  .member {
+    @apply w-72 p-2 mx-5 my-10 border text-center;
+  }
 }

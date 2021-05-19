@@ -11,9 +11,9 @@
         <!-- do not remove this line! -->
         <title>Mago de Oz</title>
     </head>
-    <body class="main-page">
-        <header>
-            <a class="nav__link nav__link--icon" href="index.html">
+    <body class="container flex flex-col h-screen mx-auto">
+        <header class="flex flex-row flex-wrap justify-around">
+            <a href="index.html">
                 <img
                     src="./assets/images/pirate_logo.jpg"
                     alt="Logo Pirata del Mago de Oz"
@@ -21,38 +21,38 @@
                     height="75"
                 />
             </a>
-            <nav class="header__nav">
-                <ul class="list-group list-group-horizontal">
-                    <li class="list-group-item bg-dark">
-                        <a
-                            class="nav__link nav__link--active"
-                            href="./members.html"
+            <nav>
+                <ul class="flex flex-row flex-wrap justify-between">
+                    <li>
+                        <a class="link--active" href="./members.html"
                             >Componentes</a
                         >
                     </li>
-                    <li class="list-group-item bg-dark">
-                        <a class="nav__link" href="#">Historia</a>
+                    <li>
+                        <a class="link" href="#">Historia</a>
                     </li>
-                    <li class="list-group-item bg-dark">
-                        <a class="nav__link" href="#">Contacta</a>
+                    <li>
+                        <a class="link" href="#">Contacta</a>
                     </li>
                 </ul>
             </nav>
         </header>
-        <main>
-            <h1 class="text-center display-4">Componentes</h1>
-            <div class="members mb-5">
+        <main class="flex-1">
+            <h1 class="text-center font-heading text-5xl my-8 xl:my-14">
+                Componentes
+            </h1>
+            <div class="flex flex-row flex-wrap justify-center align-top">
                 <div class="member">
-                    <div class="member__picture">
+                    <div>
                         <img
                             class="img-fluid"
                             src="./assets/images/JavierDominguez.jpg"
                             alt="Foto de Javier Dominguez - Zeta"
                         />
                     </div>
-                    <div class="member__name">Javier Domínguez "Zeta"</div>
-                    <div class="member__position">Vocalista</div>
-                    <div class="member__description">
+                    <div class="text-xl my-2">Javier Domínguez "Zeta"</div>
+                    <div class="text-lg text-lightYellow">Vocalista</div>
+                    <div class="text-justify">
                         Zeta es un cantante, músico y maestro musical español.
                         Además de la música, también tiene una gran afición por
                         los videojuegos y llegó a colaborar como redactor para
@@ -60,17 +60,17 @@
                     </div>
                 </div>
                 <div class="member">
-                    <div class="member__picture">
+                    <div>
                         <img
                             src="./assets/images/TxusFellatio.jpg"
                             alt="Foto de Txus di Fellatio"
                         />
                     </div>
-                    <div class="member__name">
+                    <div class="text-xl my-2">
                         Jesús Hernández "Txus di Fellatio"
                     </div>
-                    <div class="member__position">Bateria</div>
-                    <div class="member__description">
+                    <div class="text-lg text-lightYellow">Bateria</div>
+                    <div class="text-justify">
                         Jesús María Hernández Gil, conocido artísticamente como
                         Txus di Fellatio, El Príncipe de la Dulce Pena o
                         simplemente Txus, es un músico español, letrista y
@@ -80,16 +80,16 @@
                     </div>
                 </div>
                 <div class="member">
-                    <div class="member__picture">
+                    <div>
                         <img
                             class="img-fluid"
                             src="./assets/images/CarlosPrieto.jpg"
                             alt="Foto de Carlos Prieto"
                         />
                     </div>
-                    <div class="member__name">Carlos Prieto "Mohamed"</div>
-                    <div class="member__position">Violín</div>
-                    <div class="member__description">
+                    <div class="text-xl my-2">Carlos Prieto "Mohamed"</div>
+                    <div class="text-lg text-lightYellow">Violín</div>
+                    <div class="text-justify">
                         Es hijo del compositor palentino Claudio Prieto. Un
                         amigo suyo le puso el apodo de Moha cuando tenían 15
                         años después de haber puesto apodos juntos a toda su
@@ -98,15 +98,17 @@
                     </div>
                 </div>
                 <div class="member">
-                    <div class="member__picture">
+                    <div>
                         <img
                             src="./assets/images/PatriciaTapia.jpg"
                             alt="Foto de Patricia Tapia"
                         />
                     </div>
-                    <div class="member__name">Patricia Tapia</div>
-                    <div class="member__position">Coros y voz secundaria</div>
-                    <div class="member__description">
+                    <div class="text-xl my-2">Patricia Tapia</div>
+                    <div class="text-lg text-lightYellow">
+                        Coros y voz secundaria
+                    </div>
+                    <div class="text-justify">
                         Con 18 años Patricia comenzó su carrera en una banda de
                         versiones de rock melódico llamado Fahrenheit, junto a
                         su hermana Mónica y algunos integrantes de lo que sería
@@ -118,16 +120,16 @@
                     </div>
                 </div>
                 <div class="member">
-                    <div class="member__picture">
+                    <div>
                         <img
                             class="img-fluid"
                             src="./assets/images/JoseManuelPizarro.jpg"
                             alt="Foto de Jose Manuel Pizarro"
                         />
                     </div>
-                    <div class="member__name">José Manuel Pizarro "Josema"</div>
-                    <div class="member__position">Flauta travesera</div>
-                    <div class="member__description">
+                    <div class="text-xl my-2">José Manuel Pizarro "Josema"</div>
+                    <div class="text-lg text-lightYellow">Flauta travesera</div>
+                    <div class="text-justify">
                         José Manuel Pizarro Carmona, nació en Madrid en 1969.
                         Llevó a cabo sus estudios musicales en los
                         Conservatorios Profesionales Amaniel y Teresa Berganza
@@ -136,31 +138,31 @@
                     </div>
                 </div>
                 <div class="member">
-                    <div class="member__picture">
+                    <div>
                         <img
                             src="./assets/images/FernandoMainer.jpg"
                             alt="Foto de Fernando Mainer"
                         />
                     </div>
-                    <div class="member__name">Fernando Mainer</div>
-                    <div class="member__position">Bajo</div>
-                    <div class="member__description">
+                    <div class="text-xl my-2">Fernando Mainer</div>
+                    <div class="text-lg text-lightYellow">Bajo</div>
+                    <div class="text-justify">
                         Fernando Mainer Rajac. Fernando nació el 9 de diciembre
                         de 1971, es el bajista y guitarrista del grupo. Se
                         incorporó al grupo en el año 2012
                     </div>
                 </div>
                 <div class="member">
-                    <div class="member__picture">
+                    <div>
                         <img
                             class="img-fluid"
                             src="./assets/images/ManuelSeoane.jpg"
                             alt="Foto de Jose Manuel Pizarro"
                         />
                     </div>
-                    <div class="member__name">Manuel Seoane</div>
-                    <div class="member__position">Guitarra Solista</div>
-                    <div class="member__description">
+                    <div class="text-xl my-2">Manuel Seoane</div>
+                    <div class="text-lg text-lightYellow">Guitarra Solista</div>
+                    <div class="text-justify">
                         Manuel Seoane (nacido en Madrid, España, el 18 de marzo
                         de 1987) es un guitarrista de rock español conocido por
                         haber militado en importantes bandas como Lujuria o Ars
@@ -172,73 +174,58 @@
                 </div>
             </div>
         </main>
-        <footer>
+        <footer class="flex flex-row flex-wrap">
             <img
-                class="footer__logo"
+                class="h-47 object-cover my-4"
                 src="./assets/images/witch_logo.jpg"
                 alt="Logo de bruja del Mago de Oz"
                 width="75"
                 height="47"
             />
-            <nav class="footer__pages">
-                <ul class="list-group list-group-horizontal">
-                    <li class="list-group-item bg-dark">
-                        <a class="nav__link" href="./index.html"
-                            >Pagina Principal</a
-                        >
+            <nav class="flex-1 text-center my-4">
+                <ul class="flex flex-row flex-wrap justify-center">
+                    <li>
+                        <a class="link" href="./index.html">Pagina Principal</a>
                     </li>
-                    <li class="list-group-item bg-dark">
-                        <a
-                            class="nav__link nav__link--active"
-                            href="./members.html"
+                    <li>
+                        <a class="link--active" href="./members.html"
                             >Componentes</a
                         >
                     </li>
-                    <li class="list-group-item bg-dark">
-                        <a class="nav__link" href="#">Historia</a>
+                    <li>
+                        <a class="link" href="#">Historia</a>
                     </li>
-                    <li class="list-group-item bg-dark">
-                        <a class="nav__link" href="#">Contacta</a>
+                    <li>
+                        <a class="link" href="#">Contacta</a>
                     </li>
                 </ul>
             </nav>
-            <nav class="footer__social-media">
-                <ul class="list-group list-group-horizontal">
-                    <li class="list-group-item bg-dark">
+            <nav class="mx-auto my-4">
+                <ul class="flex flex-row flex-wrap justify-center">
+                    <li>
                         <a
+                            class="link"
                             href="https://open.spotify.com/artist/5ZNxiPcbKgaNcBrERMpqeu"
-                            ><i
-                                class="fab fa-spotify nav__link nav__link--icon"
-                            ></i
+                            ><i class="fab fa-spotify"></i
                         ></a>
                     </li>
-                    <li class="list-group-item bg-dark">
-                        <a href="https://www.facebook.com/magodeozoficial"
-                            ><i
-                                class="
-                                    fab
-                                    fa-facebook
-                                    nav__link nav__link--icon
-                                "
-                            ></i
+                    <li>
+                        <a
+                            class="link"
+                            href="https://www.facebook.com/magodeozoficial"
+                            ><i class="fab fa-facebook"></i
                         ></a>
                     </li>
-                    <li class="list-group-item bg-dark">
-                        <a href="https://www.instagram.com/magodeozoficial"
-                            ><i
-                                class="
-                                    fab
-                                    fa-instagram
-                                    nav__link nav__link--icon
-                                "
-                            ></i
+                    <li>
+                        <a
+                            class="link"
+                            href="https://www.instagram.com/magodeozoficial"
+                            ><i class="fab fa-instagram"></i
                         ></a>
                     </li>
-                    <li class="list-group-item bg-dark">
-                        <a href="https://twitter.com/MAGODEOZOFIC"
-                            ><i
-                                class="fab fa-twitter nav__link nav__link--icon"
-                            ></i
+                    <li>
+                        <a class="link" href="https://twitter.com/MAGODEOZOFIC"
+                            ><i class="fab fa-twitter"></i
                         ></a>
                     </li>
                 </ul>
