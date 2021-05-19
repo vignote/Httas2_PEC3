@@ -5,17 +5,8 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      transform: ["hover"],
-      letterSpacing: ["hover", "focus"],
-      fontSize: ["hover", "focus"],
       fontFamily: {
-        heading: [
-          "Lobster",
-          "Lobster",
-          "Roboto",
-          "Helvetica Neue",
-          "sans-serif",
-        ],
+        heading: ["Lobster", "Roboto", "Helvetica Neue", "sans-serif"],
         sans: ["Oswald", "Georgia", "sans-serif"],
       },
     },
